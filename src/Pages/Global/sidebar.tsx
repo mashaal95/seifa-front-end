@@ -10,10 +10,10 @@ import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import BarChart from '@mui/icons-material/StackedBarChartOutlined';
 
 type ItemProps = {
-  title: any;
-  to: any;
-  icon: any;
-  selected: any;
+  title: string;
+  to: string;
+  icon: React.ReactNode;
+  selected: string;
   setSelected: any;
 };
 
