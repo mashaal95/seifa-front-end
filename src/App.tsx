@@ -1,11 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ColourContext, useColourMode } from './theme';
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import Topbar from './Pages/Global/topbar';
 
 function App() {
-  return (
-    <div className="app">
+
+    const [theme, colourMode] = useColourMode();
+
+return(
+  <ColourContext.Provider value = {colourMode}>
+<ThemeProvider theme={theme}>
+<CssBaseline />
+<div className="app">
+      <main className='content'> 
+      <Topbar/>
+      </main>
     </div>
+
+</ThemeProvider>
+  </ColourContext.Provider>
   );
 }
 
