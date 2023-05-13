@@ -2,12 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import {
-  BrowserRouter,
-  RouterProvider,
-  createBrowserRouter
-} from 'react-router-dom';
-import Bar from './Pages/SeifaBar';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

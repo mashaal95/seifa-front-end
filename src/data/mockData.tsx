@@ -1,37 +1,24 @@
-export const mockSeifa = [
-    {
-        "localGovtAreas": "New South Wales",
-        "locations": "Albury (C)",
-        "relativeDisadvantage": 979,
-        "relativeAdvantage": 967,
-        "seifaId": 1
-      },
-      {
-        "localGovtAreas": "New South Wales",
-        "locations": "Armidale Dumaresq (A)",
-        "relativeDisadvantage": 987,
-        "relativeAdvantage": 985,
-        "seifaId": 2
-      },
-      {
-        "localGovtAreas": "New South Wales",
-        "locations": "Ashfield (A)",
-        "relativeDisadvantage": 1015,
-        "relativeAdvantage": 1031,
-        "seifaId": 3
-      },
-      {
-        "localGovtAreas": "New South Wales",
-        "locations": "Auburn (C)",
-        "relativeDisadvantage": 917,
-        "relativeAdvantage": 944,
-        "seifaId": 4
-      },
-      {
-        "localGovtAreas": "New South Wales",
-        "locations": "Ballina (A)",
-        "relativeDisadvantage": 989,
-        "relativeAdvantage": 980,
-        "seifaId": 5
-      }
-]
+// export const mockSeifa = [
+//   {
+//     id: 1,
+//     localGovtAreas: 'New South Wales',
+//     locations: 'Albury (C)',
+//     relativeDisadvantage: 979,
+//     relativeAdvantage: 967
+//   },
+//   {
+//     id: 2,
+//     localGovtAreas: 'New South Wales',
+//     locations: 'Armidale Dumaresq (A)',
+//     relativeDisadvantage: 987,
+//     relativeAdvantage: 985
+//   },
+//   {
+//     id: 3,
+//     localGovtAreas: 'New South Wales',
+//     locations: 'Ashfield (A)',
+//     relativeDisadvantage: 1015,
+//     relativeAdvantage: 1031
+//   }
+// ];
+export const mockSeifa = [{"id":154,"RelativeDisadvantage":987,"Locations":"Alpine (S)","LocalGovtAreas":"Victoria"},{"id":155,"RelativeDisadvantage":951,"Locations":"Ararat (RC)","LocalGovtAreas":"Victoria"},{"id":156,"RelativeDisadvantage":981,"Locations":"Ballarat (C)","LocalGovtAreas":"Victoria"},{"id":157,"RelativeDisadvantage":1047,"Locations":"Banyule (C)","LocalGovtAreas":"Victoria"},{"id":158,"RelativeDisadvantage":978,"Locations":"Bass Coast (S)","LocalGovtAreas":"Victoria"},{"id":159,"RelativeDisadvantage":998,"Locations":"Baw Baw (S)","LocalGovtAreas":"Victoria"},{"id":160,"RelativeDisadvantage":1091,"Locations":"Bayside (C)","LocalGovtAreas":"Victoria"},{"id":161,"RelativeDisadvantage":957,"Locations":"Benalla (RC)","LocalGovtAreas":"Victoria"},{"id":162,"RelativeDisadvantage":1098,"Locations":"Boroondara (C)","LocalGovtAreas":"Victoria"},{"id":163,"RelativeDisadvantage":926,"Locations":"Brimbank (C)","LocalGovtAreas":"Victoria"},{"id":164,"RelativeDisadvantage":968,"Locations":"Buloke (S)","LocalGovtAreas":"Victoria"},{"id":165,"RelativeDisadvantage":964,"Locations":"Campaspe (S)","LocalGovtAreas":"Victoria"},{"id":166,"RelativeDisadvantage":1024,"Locations":"Cardinia (S)","LocalGovtAreas":"Victoria"},{"id":167,"RelativeDisadvantage":1006,"Locations":"Casey (C)","LocalGovtAreas":"Victoria"},{"id":168,"RelativeDisadvantage":905,"Locations":"Central Goldfields (S)","LocalGovtAreas":"Victoria"},{"id":169,"RelativeDisadvantage":965,"Locations":"Colac-Otway (S)","LocalGovtAreas":"Victoria"},{"id":170,"RelativeDisadvantage":986,"Locations":"Corangamite (S)","LocalGovtAreas":"Victoria"},{"id":171,"RelativeDisadvantage":990,"Locations":"Darebin (C)","LocalGovtAreas":"Victoria"},{"id":172,"RelativeDisadvantage":958,"Locations":"East Gippsland (S)","LocalGovtAreas":"Victoria"},{"id":173,"RelativeDisadvantage":997,"Locations":"Frankston (C)","LocalGovtAreas":"Victoria"},{"id":174,"RelativeDisadvantage":959,"Locations":"Gannawarra (S)","LocalGovtAreas":"Victoria"},{"id":175,"RelativeDisadvantage":1069,"Locations":"Glen Eira (C)","LocalGovtAreas":"Victoria"},{"id":176,"RelativeDisadvantage":960,"Locations":"Glenelg (S)","LocalGovtAreas":"Victoria"},{"id":177,"RelativeDisadvantage":1030,"Locations":"Golden Plains (S)","LocalGovtAreas":"Victoria"},{"id":178,"RelativeDisadvantage":983,"Locations":"Greater Bendigo (C)","LocalGovtAreas":"Victoria"},{"id":179,"RelativeDisadvantage":895,"Locations":"Greater Dandenong (C)","LocalGovtAreas":"Victoria"},{"id":180,"RelativeDisadvantage":993,"Locations":"Greater Geelong (C)","LocalGovtAreas":"Victoria"},{"id":181,"RelativeDisadvantage":952,"Locations":"Greater Shepparton (C)","LocalGovtAreas":"Victoria"},{"id":182,"RelativeDisadvantage":980,"Locations":"Hepburn (S)","LocalGovtAreas":"Victoria"},{"id":183,"RelativeDisadvantage":947,"Locations":"Hindmarsh (S)","LocalGovtAreas":"Victoria"},{"id":184,"RelativeDisadvantage":1002,"Locations":"Hobsons Bay (C)","LocalGovtAreas":"Victoria"},{"id":185,"RelativeDisadvantage":987,"Locations":"Horsham (RC)","LocalGovtAreas":"Victoria"},{"id":186,"RelativeDisadvantage":952,"Locations":"Hume (C)","LocalGovtAreas":"Victoria"},{"id":187,"RelativeDisadvantage":1010,"Locations":"Indigo (S)","LocalGovtAreas":"Victoria"},{"id":188,"RelativeDisadvantage":1038,"Locations":"Kingston (C)","LocalGovtAreas":"Victoria"},{"id":189,"RelativeDisadvantage":1049,"Locations":"Knox (C)","LocalGovtAreas":"Victoria"},{"id":190,"RelativeDisadvantage":940,"Locations":"Latrobe (C)","LocalGovtAreas":"Victoria"},{"id":191,"RelativeDisadvantage":934,"Locations":"Loddon (S)","LocalGovtAreas":"Victoria"},{"id":192,"RelativeDisadvantage":1055,"Locations":"Macedon Ranges (S)","LocalGovtAreas":"Victoria"},{"id":193,"RelativeDisadvantage":1071,"Locations":"Manningham (C)","LocalGovtAreas":"Victoria"},{"id":194,"RelativeDisadvantage":1012,"Locations":"Mansfield (S)","LocalGovtAreas":"Victoria"},{"id":195,"RelativeDisadvantage":974,"Locations":"Maribyrnong (C)","LocalGovtAreas":"Victoria"},{"id":196,"RelativeDisadvantage":1044,"Locations":"Maroondah (C)","LocalGovtAreas":"Victoria"},{"id":197,"RelativeDisadvantage":1026,"Locations":"Melbourne (C)","LocalGovtAreas":"Victoria"},{"id":198,"RelativeDisadvantage":1002,"Locations":"Melton (S)","LocalGovtAreas":"Victoria"},{"id":199,"RelativeDisadvantage":935,"Locations":"Mildura (RC)","LocalGovtAreas":"Victoria"},{"id":200,"RelativeDisadvantage":996,"Locations":"Mitchell (S)","LocalGovtAreas":"Victoria"},{"id":201,"RelativeDisadvantage":952,"Locations":"Moira (S)","LocalGovtAreas":"Victoria"},{"id":202,"RelativeDisadvantage":1045,"Locations":"Monash (C)","LocalGovtAreas":"Victoria"},{"id":203,"RelativeDisadvantage":1027,"Locations":"Moonee Valley (C)","LocalGovtAreas":"Victoria"},{"id":204,"RelativeDisadvantage":1008,"Locations":"Moorabool (S)","LocalGovtAreas":"Victoria"},{"id":205,"RelativeDisadvantage":998,"Locations":"Moreland (C)","LocalGovtAreas":"Victoria"},{"id":206,"RelativeDisadvantage":1023,"Locations":"Mornington Peninsula (S)","LocalGovtAreas":"Victoria"},{"id":207,"RelativeDisadvantage":983,"Locations":"Mount Alexander (S)","LocalGovtAreas":"Victoria"},{"id":208,"RelativeDisadvantage":1017,"Locations":"Moyne (S)","LocalGovtAreas":"Victoria"},{"id":209,"RelativeDisadvantage":997,"Locations":"Murrindindi (S)","LocalGovtAreas":"Victoria"},{"id":210,"RelativeDisadvantage":1098,"Locations":"Nillumbik (S)","LocalGovtAreas":"Victoria"},{"id":211,"RelativeDisadvantage":938,"Locations":"Northern Grampians (S)","LocalGovtAreas":"Victoria"},{"id":212,"RelativeDisadvantage":1066,"Locations":"Port Phillip (C)","LocalGovtAreas":"Victoria"},{"id":213,"RelativeDisadvantage":940,"Locations":"Pyrenees (S)","LocalGovtAreas":"Victoria"},{"id":214,"RelativeDisadvantage":1053,"Locations":"Queenscliffe (B)","LocalGovtAreas":"Victoria"},{"id":215,"RelativeDisadvantage":1000,"Locations":"South Gippsland (S)","LocalGovtAreas":"Victoria"},{"id":216,"RelativeDisadvantage":994,"Locations":"Southern Grampians (S)","LocalGovtAreas":"Victoria"},{"id":217,"RelativeDisadvantage":1084,"Locations":"Stonnington (C)","LocalGovtAreas":"Victoria"},{"id":218,"RelativeDisadvantage":970,"Locations":"Strathbogie (S)","LocalGovtAreas":"Victoria"},{"id":219,"RelativeDisadvantage":1066,"Locations":"Surf Coast (S)","LocalGovtAreas":"Victoria"},{"id":220,"RelativeDisadvantage":950,"Locations":"Swan Hill (RC)","LocalGovtAreas":"Victoria"},{"id":221,"RelativeDisadvantage":996,"Locations":"Towong (S)","LocalGovtAreas":"Victoria"},{"id":222,"RelativeDisadvantage":981,"Locations":"Wangaratta (RC)","LocalGovtAreas":"Victoria"},{"id":223,"RelativeDisadvantage":989,"Locations":"Warrnambool (C)","LocalGovtAreas":"Victoria"},{"id":224,"RelativeDisadvantage":974,"Locations":"Wellington (S)","LocalGovtAreas":"Victoria"},{"id":225,"RelativeDisadvantage":986,"Locations":"West Wimmera (S)","LocalGovtAreas":"Victoria"},{"id":226,"RelativeDisadvantage":1051,"Locations":"Whitehorse (C)","LocalGovtAreas":"Victoria"},{"id":227,"RelativeDisadvantage":989,"Locations":"Whittlesea (C)","LocalGovtAreas":"Victoria"},{"id":228,"RelativeDisadvantage":975,"Locations":"Wodonga (RC)","LocalGovtAreas":"Victoria"},{"id":229,"RelativeDisadvantage":1013,"Locations":"Wyndham (C)","LocalGovtAreas":"Victoria"},{"id":230,"RelativeDisadvantage":1019,"Locations":"Yarra (C)","LocalGovtAreas":"Victoria"},{"id":231,"RelativeDisadvantage":1037,"Locations":"Yarra Ranges (S)","LocalGovtAreas":"Victoria"},{"id":232,"RelativeDisadvantage":952,"Locations":"Yarriambiack (S)","LocalGovtAreas":"Victoria"},{"id":233,"RelativeDisadvantage":1019,"Locations":"Unincorporated Vic","LocalGovtAreas":"Victoria"}]

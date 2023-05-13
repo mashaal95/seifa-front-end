@@ -3,7 +3,7 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import Topbar from './Pages/Global/topbar';
 import Dashboard from './Pages/Dashboard';
 import Bar from './Pages/SeifaBar';
-// import SeifaTable from './Pages/SeifaTable';
+import Table from './Pages/SeifaTable';
 import { Route, Routes } from 'react-router-dom';
 import Sidebar from './Pages/Global/sidebar';
 
@@ -21,6 +21,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/bar" element={<Bar />} />
+              <Route path="/table" element={<Table />} />
             </Routes>
 
             {/* <Route path="/" element={<SeifaTable />} /> */}

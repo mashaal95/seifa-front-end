@@ -7,7 +7,8 @@ import { Link } from 'react-router-dom';
 import { colourTokens } from '../../theme';
 import Home from '@mui/icons-material/HomeOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
-import BarChart from '@mui/icons-material/StackedBarChartOutlined';
+import BarChartIcon from '@mui/icons-material/StackedBarChartOutlined';
+import TableIcon from '@mui/icons-material/TableBarOutlined';
 
 type ItemProps = {
   title: string;
@@ -139,9 +140,17 @@ const Sidebar = () => {
             </Typography>
 
             <Item
+              title="Seifa Table"
+              to="/table"
+              icon={<TableIcon />}
+              selected={selectedTab}
+              setSelected={setSelectedTab}
+            />
+
+            <Item
               title="Seifa Bar Chart"
               to="/bar"
-              icon={<BarChart />}
+              icon={<BarChartIcon />}
               selected={selectedTab}
               setSelected={setSelectedTab}
             />
