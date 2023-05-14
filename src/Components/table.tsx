@@ -37,7 +37,8 @@ const BaseTable = (props: {
             border: "none"
           },
           "& .MuiDataGrid-cell": {
-            borderBottom: "none"
+            borderBottom: "none",
+            fontSize: "14px"
           },
           "& .name-column--cell": {
             color: colours.greenAccent[300]
