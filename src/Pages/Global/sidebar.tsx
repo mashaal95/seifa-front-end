@@ -5,9 +5,9 @@ import "react-pro-sidebar/dist/css/styles.css";
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
 import { Link } from "react-router-dom";
 import { colourTokens } from "../../theme";
-import Home from "@mui/icons-material/HomeOutlined";
+// import Home from "@mui/icons-material/HomeOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
-import BarChartIcon from "@mui/icons-material/StackedBarChartOutlined";
+// import BarChartIcon from "@mui/icons-material/StackedBarChartOutlined";
 import TableIcon from "@mui/icons-material/TableRowsOutlined";
 import AllIcon from "@mui/icons-material/TableViewOutlined";
 

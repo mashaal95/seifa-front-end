@@ -1,6 +1,5 @@
 import axios from "axios";
 import { SeifaAllModel, SeifaStateModel } from "../Components/Models/seifa2011";
-import { useState } from "react";
 const baseUrl = "https://localhost:7214/api/Seifa";
 
 // getting all the responses for each particular state from the API

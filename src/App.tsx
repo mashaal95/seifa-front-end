@@ -1,8 +1,8 @@
 import { ColourContext, useColourMode } from "./theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import Topbar from "./Pages/Global/topbar";
-import Dashboard from "./Pages/Dashboard";
-import Bar from "./Pages/SeifaBar";
+// import Dashboard from "./Pages/Dashboard";
+// import Bar from "./Pages/SeifaBar";
 import Table from "./Pages/SeifaTable";
 import { Route, Routes } from "react-router-dom";
 import Sidebar from "./Pages/Global/sidebar";
