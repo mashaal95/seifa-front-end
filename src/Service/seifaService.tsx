@@ -13,7 +13,17 @@ const getAllStateData = (state: string) => {
   return request
     .then((response: { data: SeifaAllModel[] }) => response.data)
     .catch((err) => {
+      if (err.response!.status === 500) {
+        // Handle 400
+        alert(err + " The database is down at the moment");
+      }
+
       alert(err + " You might not be connected to the API");
+
+      if (err.response!.status === 500) {
+        // Handle 400
+        alert(err + " The database is down at the moment");
+      }
     });
 };
 
@@ -22,6 +32,10 @@ const getStates = () => {
   return request
     .then((response: { data: [] }) => response.data)
     .catch((err) => {
+      if (err.response!.status === 500) {
+        // Handle 400
+        alert(err + " The database is down at the moment");
+      }
       alert(err + " You might not be connected to the API");
     });
 };
@@ -31,6 +45,10 @@ const getDashboardStats = () => {
   return request
     .then((response: { data: [] }) => response.data)
     .catch((err) => {
+      if (err.response!.status === 500) {
+        // Handle 400
+        alert(err + " The database is down at the moment");
+      }
       alert(err + " You might not be connected to the API");
     });
 };
