@@ -48,13 +48,11 @@ const AllTable = () => {
   // retrieving data from the Seifa tables
   useEffect(() => {
     seifaService.getAllStateData(selectedState).then((seifaAllData) => {
-      setSeifaData(seifaAllData);
+      seifaAllData && setSeifaData(seifaAllData);
     });
 
     seifaService.getStates().then((states) => {
-      if (states != null || undefined) {
-        setStateNames(states);
-      }
+      states && setStateNames(states);
     });
   }, [setSeifaData, selectedState]);
 

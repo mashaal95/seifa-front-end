@@ -20,9 +20,9 @@ function App() {
           <main className="content">
             <Topbar />
             <Routes>
-              <Route path="/" element={<Dashboard />} />
-              <Route path="/bar" element={<Bar />} />
-              <Route path="/table" element={<Table />} />
+              {/* <Route path="/" element={<Dashboard />} />
+              <Route path="/bar" element={<Bar />} /> */}
+              <Route path="/" element={<Table />} />
               <Route path="/all" element={<AllTable />} />
             </Routes>
 

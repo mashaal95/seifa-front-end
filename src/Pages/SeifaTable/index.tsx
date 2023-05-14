@@ -48,9 +48,7 @@ const Table = () => {
   // retrieving data from the Seifa tables
   useEffect(() => {
     seifaService.getStates().then((states) => {
-      if (states != null || undefined) {
-        setStateNames(states);
-      }
+      states && setStateNames(states);
     });
     seifaService.getEachStateData(selectedState).then((seifaData) => {
       setSeifaData(seifaData);

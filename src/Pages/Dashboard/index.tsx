@@ -6,9 +6,28 @@ import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
 import DashboardBox from "../../Components/dashboardBox";
+import { useEffect, useState } from "react";
+import seifaService from "../../Service/seifaService";
 const Dashboard = () => {
   const theme = useTheme();
   const colours = colourTokens(theme.palette.mode);
+
+  const [dashboardStats, setdashboardStats] = useState([]);
+
+  // retrieving data from the Seifa tables
+  // useEffect(() => {
+  //   seifaService.getDashboardStats().then((stats) => {
+  //     if (stats != null || undefined) {
+  //       setdashboardStats(stats);
+  //     }
+  //   });
+  // }, [setdashboardStats]);
+
+  // const rows = dashboardStats.map((stats) => {
+  //   return {
+  //     MaxMin: stats.i
+  //   };
+  // });
 
   return (
     <Box m="20px">
@@ -40,8 +59,10 @@ const Dashboard = () => {
         {/* ROW 1 */}
         <DashboardBox
           icon={<EmailIcon />}
-          infoBoxTitle={"12"}
-          infoBoxSubTitle={"Emails Sent"}
+          infoBoxTitle={""}
+          infoBoxSubTitle={
+            "Most relative advantage and disadvantage score in 2011"
+          }
         />
         <DashboardBox
           icon={<PointOfSaleIcon />}

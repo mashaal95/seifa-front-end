@@ -123,13 +123,13 @@ const Sidebar = () => {
 
           {/* Menu */}
           <Box paddingLeft={isCollapse ? undefined : "10%"}>
-            <Item
+            {/* <Item
               title="Dashboard"
               to="/"
               icon={<Home />}
               selected={selectedTab}
               setSelected={setSelectedTab}
-            ></Item>
+            ></Item> */}
 
             <Typography
               variant="h6"
@@ -142,7 +142,7 @@ const Sidebar = () => {
 
             <Item
               title="Seifa Table"
-              to="/table"
+              to="/"
               icon={<TableIcon />}
               selected={selectedTab}
               setSelected={setSelectedTab}
@@ -156,13 +156,13 @@ const Sidebar = () => {
               setSelected={setSelectedTab}
             />
 
-            <Item
+            {/* <Item
               title="Seifa Bar Chart"
               to="/bar"
               icon={<BarChartIcon />}
               selected={selectedTab}
               setSelected={setSelectedTab}
-            />
+            /> */}
           </Box>
         </Menu>
       </ProSidebar>
