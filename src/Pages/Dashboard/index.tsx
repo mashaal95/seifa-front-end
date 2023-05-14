@@ -1,6 +1,5 @@
 import { Box, Button, useTheme } from "@mui/material";
 import { Header } from "../../Components/header";
-import InfoBox from "../../Components/infoBox";
 import { colourTokens } from "../../theme";
 import EmailIcon from "@mui/icons-material/Email";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
