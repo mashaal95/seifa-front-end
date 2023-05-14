@@ -1,5 +1,6 @@
 import axios from "axios";
 import { SeifaAllModel, SeifaStateModel } from "../Components/Models/seifa2011";
+import { useState } from "react";
 const baseUrl = "https://localhost:7214/api/Seifa";
 
 // getting all the responses for each particular state from the API
@@ -13,7 +14,7 @@ const getAllStateData = (state: string) => {
   return request
     .then((response: { data: SeifaAllModel[] }) => response.data)
     .catch((err) => {
-      console.log(err);
+      alert(err + " You might not be connected to the API");
     });
 };
 
@@ -22,8 +23,7 @@ const getStates = () => {
   return request
     .then((response: { data: [] }) => response.data)
     .catch((err) => {
-      // what now?
-      console.log(err);
+      alert(err + " You might not be connected to the API");
     });
 };
 
@@ -32,8 +32,7 @@ const getDashboardStats = () => {
   return request
     .then((response: { data: [] }) => response.data)
     .catch((err) => {
-      // what now?
-      console.log(err);
+      alert(err + " You might not be connected to the API");
     });
 };
 
