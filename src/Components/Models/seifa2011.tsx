@@ -1,4 +1,4 @@
-export type Seifa2011Model = {
+export type SeifaStateModel = {
   Disadvantage2011: number;
   Disadvantage2016: number;
   Comparison: number;
@@ -6,6 +6,10 @@ export type Seifa2011Model = {
   StateName: string;
 };
 
-export type StateModel = {
+export type SeifaAllModel = {
+  Year: number;
   StateName: string;
+  PlaceName: string;
+  DisadvantageScore: number;
+  AdvantageScore: number;
 };
